@@ -33,7 +33,7 @@ That means modules which you can use them without any further installation
 28 - zlib           : To compress or decompress files
     */
 
-//We already have used some of the such as fs and http
+//We already have used some of them such as fs and http
 // we call them in this way
 const anyLogicalName = require('moduleName');
 //Example
