@@ -17,11 +17,11 @@ For example for loop is executing the code in order:
 const fs = require('fs');
 //These are Synchronous
 const syncEx = fs.readFileSync('./data.txt', 'utf-8');
-console.log(syncEx + '\n');
-console.log('Hello world');
+console.log(syncEx + '\n'); //execute first
+console.log('Hello world'); //execute second
 
 // these are Asynchronous
 // fs.readFile('./data.txt', 'utf-8',function (err, data) {
-//     console.log(data);
+//     console.log(data);          //execute second
 //  });
-// console.log(`Hello world \n`);
+// console.log(`Hello world \n`); //execute first
